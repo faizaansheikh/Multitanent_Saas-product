@@ -9,6 +9,7 @@ import { z } from 'zod'
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import axios from '@/lib/axios';
 import CustomAlert from "@/components/custom/CustomAlert";
+import '@ant-design/v5-patch-for-react-19';
 import { toast } from "sonner";
 
 export default function Register({setToggle}:any) {

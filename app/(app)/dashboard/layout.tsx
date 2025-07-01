@@ -11,7 +11,7 @@ function layout({
 }>) {
     return (
         <>
-        <Appbar1/>
+        <Appbar1 children={children}/>
         
         </>
     )

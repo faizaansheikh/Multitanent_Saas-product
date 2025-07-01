@@ -1,7 +1,5 @@
 'use client'
-import Image from "next/image";
-import { useEffect, useState } from "react";
-import Login from "./login/page";
+import '@ant-design/v5-patch-for-react-19';
 import { useRouter } from "next/navigation";
 
 export default function Home() {
