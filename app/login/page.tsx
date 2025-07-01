@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <>
            {toggle ? <Register setToggle={setToggle}/> : <Login setToggle={setToggle}/>}
-    {/* Kuch Bhi Nahi! */}
+   
 
         </>
     );
